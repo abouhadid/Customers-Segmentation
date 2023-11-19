@@ -1,1 +1,20 @@
 # Customers-Segmentation
+-----------------------------------------------------------
+This aim of this project is to analyze and categorize customers according to their preferences, behaviors, and demographics. The valuable insights gained from this segmentation endeavor will enable companies to optimize their marketing strategies, services, and offerings, ensuring a more personalized approach that addresses the distinct needs of various customer groups.
+
+# Methodology
+-----------------------------------------------------------
+One of the most popular, easy-to-use, and effective segmentation methods to enable marketers to analyze customer behavior is LRFMC analysis:
+
+* **Length**: the length of days between subscriber's first register day to observation time. A larger number means they have been a member for a longer time (the bigger the better)
+* **Recency**: the length of a passenger's last consumption to observation window. A smaller number means they flew more recently (the smaller the better)
+* **Frequency** the passenger's consumption frequency within a certain period of time. A bigger number means they flew more frequently (the bigger the better)
+* **Monetary** the average amount spent over a certain period of time. A bigger number means they spent more money (the bigger the better)
+* **Discount Coefficient**: the average space discount factor for passengers traveling within a certain period of time A bigger number means they use discounts more (the smaller the better)
+
+Therefore, I will try to select feature that will be used in my analysis. The columns that are related to the parameters are as follow:
+* **L**ength: `LOAD_TIME` - `FFP_DATE`
+* **R**ecency: `LAST_TO_END`
+* **F**requency: `FLIGHT_COUNT`
+* **M**onetary: `SEG_KM_FM`
+* **C**ustomer Cost: `avg_discount`
