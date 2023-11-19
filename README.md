@@ -1,4 +1,4 @@
-# Customers-Segmentation
+# LRFMC-based Customers Segmentation
 -----------------------------------------------------------
 This aim of this project is to analyze and categorize customers according to their preferences, behaviors, and demographics. The valuable insights gained from this segmentation endeavor will enable companies to optimize their marketing strategies, services, and offerings, ensuring a more personalized approach that addresses the distinct needs of various customer groups.
 
