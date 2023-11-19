@@ -21,9 +21,9 @@ Therefore, we base our feature selection on this LFRMC analysis:
 
 The K-means algorithm was used to segment the customers, with the elbow method and the silhouette score to determine the optimal number of clusters (k-value).
 
-## Conclusion
-From elbow plot, there is a possibility that the optimum clusters are 4-6. After consider the business perspective,
-we decide that the suitable number of clusters are 5. The clusters are:
+# Conclusion
+-----------------------------------------------------------
+The deducted clusters are:
 1. Cluster 1 - The Hibernating Customers 
 2. Cluster 2 - The Promising Customers 
 3. Cluster 3 - The Loyal Customers 
