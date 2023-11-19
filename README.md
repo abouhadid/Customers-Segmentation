@@ -19,7 +19,7 @@ Therefore, we base our feature selection on this LFRMC analysis:
 * **M**onetary: `SEG_KM_FM`
 * **C**ustomer Cost: `avg_discount`
 
-The K-means algorithm was used to segment the customers, with the elbow method and the silhouette score to determine the optimal number of clusters (k-value).
+The **K-means** algorithm was used to segment the customers, with the elbow method and the silhouette score to determine the optimal number of clusters (k-value).
 
 # Conclusion
 -----------------------------------------------------------
